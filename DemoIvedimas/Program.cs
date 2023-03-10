@@ -15,6 +15,11 @@ namespace DemoIvedimas
             Console.WriteLine("Įveskite dar ką nors:");
             Console.WriteLine($"Įvedei tai: {Console.ReadLine()}"); // Galime Read() bei ReaLine() iškviesti ten kur norėsime panaudoti rezultatą
 
+            // Įvedimas toje pačioje eilutėje
+            Console.Write("Įveskite savo vardą: ");
+            ivedimas = Console.ReadLine(); // Read() bei ReadLine() rezultatą galime išsaugoti
+            Console.WriteLine($"Įvedei tai: {ivedimas}");
+
             // Simbolio įvedimas
             Console.WriteLine("Įveskite simbolį: ");
             int symbolAsciiCode = Console.Read();
