@@ -36,6 +36,14 @@ namespace DemoKintamieji
             char simbolis2 = '#';
             // char suma yra jų ascii kodų suma
             Console.WriteLine(simbolis1 + simbolis2);
+
+            // trupmeniniai skaičiai
+            float skaicius0 = 0;
+            float skaicius1 = 0.0f; // float reikšmei privalomas simbolis 'f' pabaigoje
+            double skaicius2 = 0.0;
+            double skaicius3 = 0.0d;
+            decimal skaicius4 = 0;
+            decimal skaicius5 = 0.0m; // decimal reikšmei privalomas simbolis 'm' pabaigoje
         }
     }
 }
