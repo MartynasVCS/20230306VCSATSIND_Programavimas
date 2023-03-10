@@ -19,6 +19,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Ivedimas", "04 Ivedimas"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoIvedimas", "DemoIvedimas\DemoIvedimas.csproj", "{B312E924-40AC-485C-808E-5B945D4B625B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 If Salyga", "05 If Salyga", "{53AF2C0A-45C5-4814-9493-56A2B0419EAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoIfSalyga", "DemoIfSalyga\DemoIfSalyga.csproj", "{6D95F025-CE8D-497F-A9BF-53C3CF4065F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,10 @@ Global
 		{B312E924-40AC-485C-808E-5B945D4B625B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B312E924-40AC-485C-808E-5B945D4B625B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B312E924-40AC-485C-808E-5B945D4B625B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D95F025-CE8D-497F-A9BF-53C3CF4065F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D95F025-CE8D-497F-A9BF-53C3CF4065F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D95F025-CE8D-497F-A9BF-53C3CF4065F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D95F025-CE8D-497F-A9BF-53C3CF4065F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +58,7 @@ Global
 		{26499EF4-C425-496D-92A8-E83F260FFED8} = {5A0E4CE4-278C-4299-8DB8-A841EC6566C4}
 		{ADF83027-D15A-4F9C-A5C8-2A9172DFFD01} = {E06154AF-36A7-4078-A5EC-8D17DEB98C26}
 		{B312E924-40AC-485C-808E-5B945D4B625B} = {AF6221A9-2A5B-43AD-8000-4A2A675606C8}
+		{6D95F025-CE8D-497F-A9BF-53C3CF4065F8} = {53AF2C0A-45C5-4814-9493-56A2B0419EAE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {55301838-27E2-4395-ADB8-BFC4C2FA3536}
