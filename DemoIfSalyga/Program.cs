@@ -18,6 +18,23 @@ namespace DemoIfSalyga
                 Console.WriteLine($"Skaičius '{skaicius}' yra didesnis už 5");
             }
 
+            // Trumpesnis if užrašymas
+            if (skaicius > 5) Console.WriteLine($"Skaičius '{skaicius}' yra didesnis už 5");
+
+            // Jei norime kintajam priskirti reikšmę atliekant patikrinimo veiksmą
+            bool arDidesnisUžPenkis;
+            if (skaicius > 5)
+            {
+                arDidesnisUžPenkis = true;
+            } 
+            else
+            {
+                arDidesnisUžPenkis = false;
+            }
+
+            // Galima tą patį atlikti žymiai glausčiau naudojant Ternary operator
+            arDidesnisUžPenkis = (skaicius > 5) ? true : false;
+
             // If sąlyga su else if dalimis
             // Tinkrinama iš eilės nuo viršaus
             // Jei kažkuri tenkinama, kitos nebetikrinamos
