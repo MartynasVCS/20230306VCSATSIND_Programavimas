@@ -31,6 +31,11 @@ namespace DemoKintamieji
 
             // var naudojame kažkokieks sudėtingiems/ilgiems tipams
             var encoding = System.Text.Encoding.UTF8;
+
+            char simbolis1 = '@';
+            char simbolis2 = '#';
+            // char suma yra jų ascii kodų suma
+            Console.WriteLine(simbolis1 + simbolis2);
         }
     }
 }
