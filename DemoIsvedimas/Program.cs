@@ -8,8 +8,6 @@ namespace DemoIsvedimas
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            
-
             // WriteLine išveda informaciją ir perkelia žymeklį į naują eilutę
             Console.WriteLine("Labas");
 
