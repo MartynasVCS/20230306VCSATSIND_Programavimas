@@ -9,6 +9,11 @@ namespace DemoMetodai
             return num1 + num2;
         }
 
+        internal int Difference(int num1, int num2)
+        {
+            return num1 - num2;
+        }
+
         // Rekursinis metodas (kviečia pats save)
         internal static void DivisionByTwoUntilZero(int number)
         {
